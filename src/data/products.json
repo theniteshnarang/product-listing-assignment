@@ -1,0 +1,86 @@
+[
+    {
+        "id": "p01",
+        "name": "Printed Men Round Neck Green T-Shirt",
+        "price": 296,
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "brand": "METRONAUT",
+        "ideal": [
+            "MEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/kqttg280/t-shirt/8/s/t/m-mss21cn028b-metronaut-original-imag4rcnyvwmpfen.jpeg?q=50"
+    },
+    {
+        "id": "p02",
+        "name": "Striped Men Hooded Neck Red, Black T-Shirt",
+        "price": 221,
+        "size": [
+            "L",
+            "XL"
+        ],
+        "brand": "HELMONT",
+        "ideal": [
+            "MEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/kf1fo280hlty2aw-0/t-shirt/w/s/e/-original-imafdfvvr8hqdu65.jpeg?q=50"
+    },
+    {
+        "id": "p03",
+        "name": "Woven, Embellished Daily Wear Chiffon Saree  (Blue)",
+        "price": 299,
+        "size": [
+            "XL"
+        ],
+        "brand": "Skashvi sarees",
+        "ideal": [
+            "WOMEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/kj0bp8w0-0/sari/l/o/l/free-doly2605-ratnavati-unstitched-original-imafyz6mkgdqhhfp.jpeg?q=50"
+    },
+    {
+        "id": "p04",
+        "name": "Printed, Floral Print Daily Wear Georgette Saree  (Black)",
+        "price": 266,
+        "size": [
+            "XL"
+        ],
+        "brand": "Skashvi sarees",
+        "ideal": [
+            "WOMEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/keaaavk0-0/sari/u/j/a/free-as-1152-1-anand-unstitched-original-imafuzuhfjbz7jh5.jpeg?q=50"
+    },
+    {
+        "id": "p05",
+        "name": "Striped Men Round Neck Yellow T-Shirt",
+        "price": 283,
+        "size": [
+            "L",
+            "XL"
+        ],
+        "brand": "HELMONT",
+        "ideal": [
+            "MEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/kjiwfbk0-0/t-shirt/e/k/s/m-t305-as10yldnwh-seven-rocks-original-imafz2qfvx7tznnn.jpeg?q=50"
+    },
+    {
+        "id": "p06",
+        "name": "Solid Men Round Neck Grey T-Shirt",
+        "price": 549,
+        "size": [
+            "M",
+            "L"
+        ],
+        "brand": "PUMA",
+        "ideal": [
+            "MEN"
+        ],
+        "image": "https://rukminim1.flixcart.com/image/800/960/knoxnrk0/t-shirt/m/q/l/m-58666803-puma-original-imag2b5wa5pag43h.jpeg?q=50"
+    }
+]
