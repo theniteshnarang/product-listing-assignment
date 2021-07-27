@@ -30,6 +30,13 @@ const storeReducer = (state, action) => {
                 return { ...state, idealFor: idealFor.filter(gender => gender !== action.payload.value) }
             }
             return { ...state, idealFor: idealFor.concat(action.payload.value) }
+        case 'CLEAR_FILTERS':
+            return {
+                ...state,
+                sizes: [],
+                brands: [],
+                idealFor: []
+            }
         default:
             return state
     }

@@ -22,7 +22,7 @@ export const Filter = () => {
     const brandsData = ["PUMA", "HELMONT", "Skashvi sarees", "METRONAUT"]
     const sizesData = ["S", "M", "L", "XL"]
     const idealForData = ["MEN", "WOMEN"]
-    const { sizes, brands, idealFor } = useStore()
+    const { sizes, brands, idealFor, dispatch } = useStore()
 
     return (
         <div className=" fixed top-32 mx-4">
@@ -47,6 +47,7 @@ export const Filter = () => {
                     </div>
                 </fieldset>
             </div>
+            <button onClick={() => dispatch({ type: 'CLEAR_FILTERS' })} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounde mt-4">Clear Filters</button>
         </div>
     )
 }
