@@ -31,19 +31,19 @@ export const Filter = () => {
                 <fieldset>
                     <legend>Size</legend>
                     <div className="flex gap-x-4">
-                        {sizesData.map(size => <Checkbox name="SET_SIZE" value={size} filters={sizes} />)}
+                        {sizesData.map(size => <Checkbox key={size} name="SET_SIZE" value={size} filters={sizes} />)}
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Brand</legend>
                     <div className="flex flex-col">
-                        {brandsData.map(brand => <Checkbox name="SET_BRAND" value={brand} filters={brands} />)}
+                        {brandsData.map(brand => <Checkbox key={brand} name="SET_BRAND" value={brand} filters={brands} />)}
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Ideal</legend>
                     <div className="flex gap-x-4">
-                        {idealForData.map(gender => <Checkbox name="SET_IDEAL_FOR" value={gender} filters={idealFor} />)}
+                        {idealForData.map(gender => <Checkbox key={gender} name="SET_IDEAL_FOR" value={gender} filters={idealFor} />)}
                     </div>
                 </fieldset>
             </div>
