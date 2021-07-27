@@ -9,10 +9,9 @@ export const Card = ({ product }) => {
                 <span className="font-light text-sm">{brand}</span>
                 <p className="text-sm font-bold truncate">{name}</p>
                 <div className="flex justify-around">
-                    <span>{ideal[0]}</span>
-                    <span>Size: {size[0]}</span>
+                    <span>{ideal.join(", ")}</span>
+                    <span>Size: {size.join(", ")}</span>
                 </div>
-
                 <strong>Price: {price}</strong>
             </div>
         </div>
